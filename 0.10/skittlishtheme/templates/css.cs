@@ -78,8 +78,6 @@ ol.list li {
 /* Main Wrapper */
 #wrapper {
   position: relative;
-  width: 980px;
-  margin: 0 auto;
   padding-right: 5px;
   border-left: solid 1px #9a9a9a;
   background: url(<?cs var:chrome.href ?>/theme/images/left_bg.gif) right repeat-y;
@@ -209,4 +207,14 @@ ol.list li {
 #subscribe a {
   font-weight: normal;
   font-size: 1.4em;
+}
+
+.fluid #wrapper {
+  width: auto;
+  margin: 0 80px;
+}
+
+.fixed #wrapper {
+  width: 980px;
+  margin: 0 auto;
 }

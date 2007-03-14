@@ -23,11 +23,10 @@
   <?cs each:script = chrome.scripts ?>
     <script type="<?cs var:script.type ?>" src="<?cs var:script.href ?>"></script>
   <?cs /each ?>
+  <script src="http://dnite.org/mint/?js" type="text/javascript"></script>
 </head>
 
-<body>
-
-<body class="fixed green">
+<body class="fluid">
 
 <div id="wrapper">
 
